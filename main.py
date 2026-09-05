@@ -9,7 +9,7 @@ def is_address(w):
     return location
 
 
-bot = telebot.TeleBot('6646359255:AAGtAGwG-O4I20TBe8OqtjLtjJA5MVS6qss')
+bot = telebot.TeleBot('my_token')
 
 
 @bot.message_handler(commands=['start'])
